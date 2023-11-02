@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+}
+h2{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+h3,h1,p{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+/*--------------------hero section-----------------------*/
+.main1{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    position: relative;
+    margin-bottom: 300px;
+    
+
+}
+.curve{
+    position: absolute;
+    width: 33%;
+    height: 90%;
+    background: linear-gradient( to top right,#8838FF ,#E942FF);
+    left: 0;
+    top: 0;
+    border-bottom-right-radius: 70%;
+    border-bottom-left-radius: 24%;
+    z-index: 0;
+}
+
+.hero-wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    position: absolute;
+}
+.hero-wrapper h2{
+font-weight: 700;
+}
+.hero-wrapper p{
+    color: grey;
+}
+.hero-wrapper2{
+    margin-left: -130px;
+}
+
+/*--------------------hero section-----------------------*/
+/*--------------------responsive section-----------------------*/
+@media only screen and ( max-width: 700px){
+
+.curve{
+    position: absolute;
+    width: 60%;
+    height: 90%;
+    background: linear-gradient( to top right,#8838FF ,#E942FF);
+    left: 0;
+    top: 0;
+    border-bottom-right-radius: 90%;
+    border-bottom-left-radius: 0%;
+}
+}
+/*--------------------responsive section-----------------------*/
+/*--------------------mobile  section-----------------------*/
+@media only screen and ( max-width: 800px){
+    .phone{
+        width: 265px !important;
+        height: 95vh !important;
+        border: 9px solid blueviolet;
+        border-radius: 40px;
+        margin-left: 50px !important;
+        
+    }
+    .phone-body{
+        width: 246px !important;
+        height: 512px !important;
+        background-color: #F5F3F7;
+        border-bottom-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+    }
+    .phone-header{
+        width: 247px !important;
+        height: 105px;
+        background: linear-gradient( to right,#8838FF ,#E942FF) !important;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+    
+    }
+    
+    .flex-ended4{
+        margin: 0;
+        padding: 0;
+    }
+    .input-wrapper{
+        display: flex;
+        align-items: flex-end;
+        border-radius: 30px;
+        padding: 0px 15px 5px 10px !important;
+        margin: 10px 0px 0px 10px !important;
+        
+    }
+    .input-wrapper input{
+        border: none;
+        outline: none;
+        flex: 1;
+        padding: 0;
+        background-color: transparent;
+    }
+    .input-wrapper i{
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .hero-wrapper2{
+        margin-right: 0px !important;
+        text-align: center;
+        margin: 90px auto 0px auto !important;
+    }
+    .hero-wrapper2 h2{
+font-weight: 800;
+font-size: 30px;
+margin-bottom: 13px;
+    }
+    
+    
+    
+    }
+.phone{
+    width: 330px;
+    height: 87vh;
+    border: 9px solid white;
+    border-radius: 40px;
+    position: relative;
+    box-shadow: 0 0 15px 1px #d0bfdb;
+    margin-left: 200px;
+    margin-top: 50px;
+    
+}
+.phone-space{
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+/*---------------phone header-------------------*/
+.phone-header{
+    width: 312px;
+    height: 98px;
+    background: linear-gradient( to right,#8838FF ,#E942FF) !important;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+
+}
+
+.flex-control{
+    display: flex;
+    padding-top: 35px;
+    margin-left: 30px;
+}
+.iphone-img1{
+    width: 40px;
+    padding-right: 5px;
+}
+.phone-img1 img{
+    width: 40px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+.phone-cont1 {
+margin-left: 15px;
+}
+.phone-cont1 p{
+    font-size: 12px;
+}
+.flex-control2{
+    padding-top: 50px;
+}
+.flex-control2 i{
+    color: white;
+}
+/*---------------phone header-------------------*/
+/*-----------------------phone body---------------------------*/
+.phone-body{
+    width: 312px;
+    height: 533px;
+    background-color: #F5F3F7;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+.phone-body-cont1{
+    background-color: #e1d7e9;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    
+}
+.phone-body-cont1 p{
+    color: #9241C8 ;
+    font-size: 11px;
+}
+.phone-img-wrapper2 img{
+    width: 45px;
+    display: inline-flex;
+    margin-right: 5px;
+    border-radius: 10px;
+    
+}
+.phone-img-wrapper2{
+    float: right;
+    margin-right: 5px;
+}
+.phone-body-cont2{
+
+}
+.flex-ended{
+    float: right;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 0px 0px 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+.flex-ended p{
+    font-size: 11px;
+}
+.flex-ended2{
+    float: left;
+    background-color: #e1d7e9;
+    border-radius: 10px;
+    padding: 5px 0px 0px 5px;
+    margin-top: 5px;
+    padding: 5px;
+    margin-left: 10px;
+
+}
+.flex-ended2 p{
+    font-size: 11px;
+    color: #8838FF;
+}
+.flex-ended3{
+    float: left;
+    background: linear-gradient( to left,#8838FF ,#E942FF) !important;
+    margin: 10px 0px 0px 5px;
+    padding: 0px 30px 0px 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+    
+}
+.void{
+    width: 20px ;
+    background-color: transparent;
+    border: 1px solid rgb(212, 207, 207);
+    border-radius: 55px;
+    margin: 3px 5px;
+}
+.view-once{
+    display: inline-flex;
+}
+.view-once span {
+    margin-top: 3px;
+    
+}
+.dollar{
+    font-weight: 700;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.flex-ended4{
+    float: left;
+}
+.input-wrapper{
+    display: flex;
+    align-items: flex-end;
+    padding: 10px 35px;
+    border-radius: 30px;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+    
+}
+.input-wrapper input{
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 0;
+}
+.input-wrapper i{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+ .phone .head-speaker{
+position: absolute;
+background-color: white;
+
+height: 20px;
+top: 0;
+left: 27%;
+right: 0%;
+width: 45%;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+
+
+/*-----------------------phone body---------------------------*/
+/*--------------------mobile section-----------------------*/
