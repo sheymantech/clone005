@@ -76,7 +76,7 @@ font-weight: 700;
 @media only screen and ( max-width: 800px){
     .phone{
         width: 265px !important;
-        height: 95vh !important;
+        height: 640px !important;
         border: 9px solid blueviolet;
         border-radius: 40px;
         margin-left: 50px !important;
@@ -84,7 +84,7 @@ font-weight: 700;
     }
     .phone-body{
         width: 246px !important;
-        height: 512px !important;
+        height: 520px !important;
         background-color: #F5F3F7;
         border-bottom-right-radius: 35px;
         border-bottom-left-radius: 35px;
