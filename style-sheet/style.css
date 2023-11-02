@@ -75,7 +75,7 @@ font-weight: 700;
 /*--------------------mobile  section-----------------------*/
 @media only screen and ( max-width: 800px){
     .phone{
-        width: 280px !important;
+        width: 290px !important;
         height: 640px !important;
         border: 9px solid blueviolet;
         border-radius: 40px;
@@ -83,14 +83,14 @@ font-weight: 700;
         
     }
     .phone-body{
-        width: 262px !important;
+        width: 270px !important;
         height: 527px !important;
         background-color: #F5F3F7;
         border-bottom-right-radius: 35px;
         border-bottom-left-radius: 35px;
     }
     .phone-header{
-        width: 263px !important;
+        width: 271px !important;
         height: 105px;
         background: linear-gradient( to right,#8838FF ,#E942FF) !important;
         border-top-right-radius: 30px;
